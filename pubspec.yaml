@@ -1,0 +1,44 @@
+name: travelappui
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+   # - images/a_dot_ham.jpeg
+
+  fonts:
+    - family: PlayFair
+      fonts:
+        - asset: fonts/PlayFairDisplay-Regular.ttf
+        - asset: fonts/PlayFairDisplay-Medium.ttf
+          weight: 700
+        - asset: fonts/PlayFairDisplay-Bold.ttf
+          weight: 900
+        - asset: fonts/PlayFairDisplay-Italic.ttf
+          style: italic
+          
+url_launcher: ^6.0.9
